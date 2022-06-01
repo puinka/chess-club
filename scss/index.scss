@@ -1,8 +1,6 @@
 @import "vendor/normalize";
 @import "vendor/fonts";
 @import "vendor/variables";
+@import "vendor/functions";
 
-body {
-  background: $color-bg-secondary;
-  color: $color-text-primary;
-}
+@import "blocks/page";
