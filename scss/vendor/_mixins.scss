@@ -15,3 +15,23 @@
     @content;
   }
 }
+
+@mixin padding {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @include tablet {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @include desktop {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  @include desktop-hd {
+    max-width: 1120px;
+    padding: 0;
+  }
+}
