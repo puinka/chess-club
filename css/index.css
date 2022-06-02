@@ -370,6 +370,9 @@ template {
 }
 
 .header {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,10 +382,8 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 auto 40px;
+  margin-bottom: 40px;
   padding-top: 16px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -492,6 +493,123 @@ template {
   .button {
     font-size: 15px;
     padding: 14px 28px 16px;
+  }
+}
+
+.hero {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    max-width: 1120px;
+    padding: 0;
+  }
+}
+
+.hero__title {
+  margin: 0 0 20px 0;
+  padding: 0;
+  font-size: 40px;
+  line-height: 0.9;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__title {
+    font-size: 70px;
+    max-width: 500px;
+  }
+}
+
+.hero__lead {
+  margin: 0 0 110px 0;
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__lead {
+    font-size: 20px;
+    max-width: 500px;
+  }
+}
+
+.badge {
+  padding: 8px 20px 8px 16px;
+  max-width: 63px;
+  max-height: 40px;
+  background-color: #5036e6;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .badge {
+    font-size: 16px;
+    padding: 18px;
+    margin-bottom: 70px;
+    max-width: 84px;
+  }
+}
+
+.badge__text {
+  font-size: 12px;
+  line-height: 0.9;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+}
+
+.deco-board {
+  max-width: 280px;
+  height: 70px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.deco-board_type_primary {
+  background-image: url("../../assets/images/hero-board-violet--mobile.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .deco-board_type_primary {
+    background-image: url("../../assets/images/hero-board-violet.svg");
+  }
+}
+
+.deco-board_type_secondary {
+  background-image: url("../../assets/images/hero-board-green--mobile.svg");
+}
+
+@media screen and (min-width: 768px) {
+  .deco-board_type_secondary {
+    background-image: url("../../assets/images/hero-board-green.svg");
   }
 }
 /*# sourceMappingURL=index.css.map */
