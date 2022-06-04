@@ -6,14 +6,11 @@
 
 @import "blocks/page/page";
 @import "blocks/button/button";
-<<<<<<< Updated upstream
 
 @import "blocks/header/header";
 @import "blocks/header/__logo/header__logo";
 @import "blocks/header/__signup-wrap/header__signup-wrap";
 @import "blocks/header/__lead/header__lead";
-=======
->>>>>>> Stashed changes
 
 @import "blocks/header/header";
 @import "blocks/header/__logo/header__logo";
@@ -38,3 +35,8 @@
 @import "blocks/member/__photo/member__photo";
 @import "blocks/member/__name/_member__name";
 @import "blocks/member/__occupation/member__occupation";
+
+@import "blocks/join/join";
+@import "blocks/join/__wrap/join__wrap";
+@import "blocks/join/__title/join__title";
+@import "blocks/join/__copy/join__copy";

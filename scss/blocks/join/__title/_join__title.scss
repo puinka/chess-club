@@ -1,0 +1,11 @@
+.join__title {
+  font-size: 40px;
+  line-height: 0.9;
+  margin: 0 0 20px 0;
+  font-weight: weight(bold);
+
+  @include tablet {
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+}
