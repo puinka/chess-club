@@ -1,0 +1,15 @@
+.competitions__wrap {
+  position: relative;
+  @include padding;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @include tablet {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  @include desktop {
+    padding-top: 80px;
+  }
+}

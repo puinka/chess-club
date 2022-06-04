@@ -1,0 +1,12 @@
+.competitions__gallery {
+  margin-bottom: 60px;
+
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @include desktop {
+    justify-content: space-between;
+  }
+}
