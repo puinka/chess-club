@@ -1,0 +1,12 @@
+.team__title {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 40px;
+  line-height: 0.9;
+  font-weight: weight(bold);
+
+  @include tablet {
+    font-size: 70px;
+    margin-bottom: 40px;
+  }
+}

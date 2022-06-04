@@ -1,0 +1,12 @@
+.deco-board {
+  max-width: 280px;
+  height: 70px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  @include tablet {
+    max-width: 416px;
+    height: 104px;
+  }
+}

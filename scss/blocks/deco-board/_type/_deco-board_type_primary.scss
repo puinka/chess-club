@@ -1,0 +1,7 @@
+.deco-board_type_primary {
+  background-image: url("../../assets/images/hero-board-violet--mobile.svg");
+
+  @include tablet {
+    background-image: url("../../assets/images/hero-board-violet.svg");
+  }
+}

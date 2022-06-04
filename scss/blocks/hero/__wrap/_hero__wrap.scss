@@ -1,0 +1,21 @@
+.hero__wrap {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto 0 0;
+  max-width: 320px;
+
+  @include tablet {
+    padding-left: 50px;
+    max-width: 500px;
+  }
+
+  @include desktop {
+    padding-left: 160px;
+  }
+
+  @include desktop-hd {
+    padding: 0;
+    max-width: 1120px;
+    margin-left: auto;
+  }
+}

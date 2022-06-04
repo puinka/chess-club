@@ -1,0 +1,11 @@
+.member {
+  text-align: center;
+
+  @include tablet {
+    text-align: left;
+  }
+
+  @include desktop {
+    max-width: 320px;
+  }
+}

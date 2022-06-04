@@ -1,0 +1,10 @@
+.team__members {
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @include desktop {
+    justify-content: space-between;
+  }
+}

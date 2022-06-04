@@ -6,12 +6,35 @@
 
 @import "blocks/page/page";
 @import "blocks/button/button";
+<<<<<<< Updated upstream
+
+@import "blocks/header/header";
+@import "blocks/header/__logo/header__logo";
+@import "blocks/header/__signup-wrap/header__signup-wrap";
+@import "blocks/header/__lead/header__lead";
+=======
+>>>>>>> Stashed changes
 
 @import "blocks/header/header";
 @import "blocks/header/__logo/header__logo";
 @import "blocks/header/__signup-wrap/header__signup-wrap";
 @import "blocks/header/__lead/header__lead";
 
-@import "blocks/hero";
-@import "blocks/badge";
-@import "blocks/deco-board";
+@import "blocks/hero/hero";
+@import "blocks/badge/badge";
+@import "blocks/hero/__wrap/hero__wrap";
+@import "blocks/hero/__title/hero__title";
+@import "blocks/hero/__lead/hero__lead";
+@import "blocks/deco-board/deco-board";
+@import "blocks/deco-board/_type/deco-board_type_primary";
+@import "blocks/deco-board/_type/deco-board_type_secondary";
+
+@import "blocks/team/team";
+@import "blocks/team/__wrap/team__wrap";
+@import "blocks/team/__title/team__title";
+@import "blocks/team/__copy/team__copy";
+@import "blocks/team/__members/team__members";
+@import "blocks/member/member";
+@import "blocks/member/__photo/member__photo";
+@import "blocks/member/__name/_member__name";
+@import "blocks/member/__occupation/member__occupation";
