@@ -5,6 +5,11 @@
   background-repeat: no-repeat;
   background-size: contain;
 
+  @include tablet {
+    max-width: 416px;
+    height: 104px;
+  }
+
   &_type_primary {
     background-image: url("../../assets/images/hero-board-violet--mobile.svg");
 
