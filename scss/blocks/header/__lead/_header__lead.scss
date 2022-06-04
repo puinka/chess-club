@@ -1,0 +1,18 @@
+.header__lead {
+  padding: 0;
+  margin: 0;
+  display: none;
+  font-size: 13px;
+  line-height: 1.25;
+
+  @include tablet {
+    display: block;
+    margin-right: 42px;
+  }
+
+  @include desktop {
+    margin-right: 52px;
+    font-size: 15px;
+    line-height: 1.1;
+  }
+}

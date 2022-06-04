@@ -4,9 +4,13 @@
 @import "vendor/mixins";
 @import "vendor/functions";
 
-@import "blocks/page";
-@import "blocks/header";
-@import "blocks/button";
+@import "blocks/page/page";
+@import "blocks/button/button";
+
+@import "blocks/header/header";
+@import "blocks/header/__logo/header__logo";
+@import "blocks/header/__signup-wrap/header__signup-wrap";
+@import "blocks/header/__lead/header__lead";
 
 @import "blocks/hero";
 @import "blocks/badge";
