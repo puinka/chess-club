@@ -1,0 +1,12 @@
+.footer__copyright {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: weight(regular);
+  color: $color-text-gray;
+  margin: 0;
+
+  @include tablet {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+}

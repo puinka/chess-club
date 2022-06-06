@@ -1,0 +1,7 @@
+.footer__signup-button {
+  margin-bottom: 40px;
+
+  @include tablet {
+    margin-bottom: 60px;
+  }
+}
