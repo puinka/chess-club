@@ -36,6 +36,10 @@
 @import "blocks/member/__name/_member__name";
 @import "blocks/member/__occupation/member__occupation";
 
+@import "blocks/gallery/gallery";
+@import "blocks/gallery/__slides-wrap/gallery__slides-wrap";
+@import "blocks/gallery/__slide/gallery__slide";
+
 @import "blocks/join/join";
 @import "blocks/join/__wrap/join__wrap";
 @import "blocks/join/__title/join__title";
@@ -46,7 +50,6 @@
 @import "blocks/competitions/__title/competitions__title";
 @import "blocks/competitions/__copy/competitions__copy";
 @import "blocks/competitions/__gallery/competitions__gallery";
-@import "blocks/competitions/__images-wrap/competitions__images-wrap";
 @import "blocks/competitions/__photo/competitions__photo";
 @import "blocks/competitions/__deco-board/competitions__deco-board.scss";
 

@@ -1,6 +1,5 @@
-.competitions__images-wrap {
+.gallery__slides-wrap {
   display: flex;
-  overflow-x: hidden;
 
   @include tablet {
     overflow-x: auto;
