@@ -1,5 +1,7 @@
 .gallery__slides-wrap {
   display: flex;
+  margin-bottom: 30px;
+  //TODO
 
   @include tablet {
     overflow-x: auto;

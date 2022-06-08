@@ -1,3 +1,9 @@
 .competitions__gallery {
-  margin-bottom: 60px;
+  @include tablet {
+    margin-bottom: 140px;
+  }
+
+  @include desktop {
+    margin-bottom: 110px;
+  }
 }

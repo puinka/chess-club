@@ -1,0 +1,11 @@
+.gallery__page-indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: $color-text-primary;
+  opacity: 0.5;
+
+  &_active {
+    opacity: 1;
+  }
+}

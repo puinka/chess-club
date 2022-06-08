@@ -1,0 +1,10 @@
+.gallery__pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 44px;
+  margin: 0 auto 60px;
+
+  @include tablet {
+    display: none;
+  }
+}
