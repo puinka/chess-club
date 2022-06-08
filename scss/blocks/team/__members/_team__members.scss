@@ -1,11 +1,2 @@
 .team__members {
-  @include tablet {
-    display: flex;
-    overflow-x: auto;
-    @include no-scrollbar;
-  }
-
-  @include desktop {
-    justify-content: space-between;
-  }
 }
