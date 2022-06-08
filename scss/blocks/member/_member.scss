@@ -3,9 +3,16 @@
 
   @include tablet {
     text-align: left;
+    margin-right: 28px;
   }
 
   @include desktop {
     max-width: 320px;
+  }
+
+  &:last-child {
+    @include tablet {
+      margin-right: 50px;
+    }
   }
 }

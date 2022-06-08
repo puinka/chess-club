@@ -1,3 +1,7 @@
 .team__wrap {
   @include padding;
+
+  @include tablet {
+    padding-right: 0;
+  }
 }

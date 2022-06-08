@@ -3,10 +3,12 @@
 
   @include tablet {
     display: flex;
-    flex-wrap: wrap;
+    overflow-x: auto;
   }
 
   @include desktop {
     justify-content: space-between;
   }
+
+  @include no-scrollbar;
 }

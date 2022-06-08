@@ -1,4 +1,14 @@
 .competitions__photo {
   max-width: calc(100vw - 40px);
   border-radius: $border-radius-l;
+
+  @include tablet {
+    margin-right: 28px;
+  }
+
+  &:last-child {
+    @include tablet {
+      margin-right: 50px;
+    }
+  }
 }
