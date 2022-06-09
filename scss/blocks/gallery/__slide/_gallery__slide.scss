@@ -1,0 +1,15 @@
+.gallery__slide {
+  width: 100%;
+  flex-shrink: 0;
+
+  @include tablet {
+    margin-right: 28px;
+    width: 320px;
+  }
+
+  &:last-child {
+    @include tablet {
+      margin-right: 50px;
+    }
+  }
+}

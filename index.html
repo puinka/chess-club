@@ -38,34 +38,43 @@
             Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с
             ними играть — одно удовольствие!
           </p>
-          <div class="team__members">
-            <article class="member">
-              <img
-                src="assets/images/andrey.jpg"
-                alt="Андрей"
-                class="member__photo"
-              />
-              <p class="member__name">Андрей</p>
-              <p class="member__occupation">Шахматист, писатель.</p>
-            </article>
-            <article class="member">
-              <img
-                src="assets/images/nikita.jpg"
-                alt="Никита"
-                class="member__photo"
-              />
-              <p class="member__name">Никита</p>
-              <p class="member__occupation">Шахматист, кулинар.</p>
-            </article>
-            <article class="member">
-              <img
-                src="assets/images/alexey.jpg"
-                alt="Алексей"
-                class="member__photo"
-              />
-              <p class="member__name">Алексей</p>
-              <p class="member__occupation">Шахматист, геймер.</p>
-            </article>
+          <div class="team__members gallery">
+            <div class="gallery__slides-wrap">
+              <article class="member gallery__slide">
+                <img
+                  src="assets/images/andrey.jpg"
+                  alt="Андрей"
+                  class="member__photo"
+                />
+                <p class="member__name">Андрей</p>
+                <p class="member__occupation">Шахматист, писатель.</p>
+              </article>
+              <article class="member gallery__slide">
+                <img
+                  src="assets/images/nikita.jpg"
+                  alt="Никита"
+                  class="member__photo"
+                />
+                <p class="member__name">Никита</p>
+                <p class="member__occupation">Шахматист, кулинар.</p>
+              </article>
+              <article class="member gallery__slide">
+                <img
+                  src="assets/images/alexey.jpg"
+                  alt="Алексей"
+                  class="member__photo"
+                />
+                <p class="member__name">Алексей</p>
+                <p class="member__occupation">Шахматист, геймер.</p>
+              </article>
+            </div>
+            <div class="gallery__pagination">
+              <div
+                class="gallery__page-indicator gallery__page-indicator_active"
+              ></div>
+              <div class="gallery__page-indicator"></div>
+              <div class="gallery__page-indicator"></div>
+            </div>
           </div>
         </div>
       </section>
@@ -84,23 +93,33 @@
             Сражайтесь в парах и приятно проводите время. Если хотите прокачать
             свои навыки — сыграйте с нашими шахматистами.
           </p>
-          <div class="competitions__gallery">
-            <img
-              src="assets/images/gallery-1.jpg"
-              alt="Шахматный турнир на скамейке во дворе"
-              class="competitions__photo"
-            />
-            <img
-              src="assets/images/gallery-2.jpg"
-              alt="Шахматная доска перед началом игры"
-              class="competitions__photo"
-            />
-            <img
-              src="assets/images/gallery-3.jpg"
-              alt="Шахматная партия"
-              class="competitions__photo"
-            />
+          <div class="competitions__gallery gallery">
+            <div class="gallery__slides-wrap">
+              <img
+                src="assets/images/gallery-1.jpg"
+                alt="Шахматный турнир на скамейке во дворе"
+                class="competitions__photo gallery__slide"
+              />
+              <img
+                src="assets/images/gallery-2.jpg"
+                alt="Шахматная доска перед началом игры"
+                class="competitions__photo gallery__slide"
+              />
+              <img
+                src="assets/images/gallery-3.jpg"
+                alt="Шахматная партия"
+                class="competitions__photo gallery__slide"
+              />
+            </div>
+            <div class="gallery__pagination">
+              <div
+                class="gallery__page-indicator gallery__page-indicator_active"
+              ></div>
+              <div class="gallery__page-indicator"></div>
+              <div class="gallery__page-indicator"></div>
+            </div>
           </div>
+
           <div
             class="competitions__deco-board deco-board deco-board_type_secondary"
           ></div>
@@ -115,5 +134,6 @@
       <p class="footer__text">Шахматный клуб в Москве.</p>
       <p class="footer__copyright">&copy; Chess Club.</p>
     </footer>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
