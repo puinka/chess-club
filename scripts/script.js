@@ -1,6 +1,6 @@
 const galleries = document.querySelectorAll(".gallery");
 const headerButton = document.querySelector(".header__signup-button");
-const footerButton = document.querySelector(".header__signup-button");
+const footerButton = document.querySelector(".footer__signup-button");
 const signupPopup = document.querySelector(".popup");
 const popupButton = signupPopup.querySelector(".popup__submit-button");
 
