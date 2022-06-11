@@ -1,13 +1,13 @@
 .competitions {
   @include tablet {
-    background-image: url("../../assets/images/competitions-illustration--tablet.png");
+    background-image: url("assets/images/competitions-illustration--tablet.png");
     background-repeat: no-repeat;
     background-size: 220px 220px;
     background-position: left bottom;
   }
 
   @include desktop {
-    background-image: url("../../assets/images/competitions-illustration--desktop.png");
+    background-image: url("assets/images/competitions-illustration--desktop.png");
     background-size: 440px 220px;
     background-position: left 100px bottom;
   }

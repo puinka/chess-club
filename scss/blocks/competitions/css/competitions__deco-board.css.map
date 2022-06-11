@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,yBAAyB,CAAC;EACxB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,CAAC;CACT",
-    "sources": [
-        "../__deco-board/competitions__deco-board.scss"
-    ],
-    "names": [],
-    "file": "competitions__deco-board.css"
-}
