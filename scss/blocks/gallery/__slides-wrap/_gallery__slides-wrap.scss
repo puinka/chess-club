@@ -5,6 +5,7 @@
 
   @include desktop {
     justify-content: space-between;
+    margin-bottom: 0;
   }
 
   @include no-scrollbar;

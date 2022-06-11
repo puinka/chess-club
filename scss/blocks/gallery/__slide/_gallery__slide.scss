@@ -12,5 +12,9 @@
     @include tablet {
       margin-right: 50px;
     }
+
+    @include desktop {
+      margin-right: 0;
+    }
   }
 }
