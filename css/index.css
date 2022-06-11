@@ -762,12 +762,12 @@ template {
 }
 
 .deco-board_type_secondary {
-  background-image: url("../../assets/images/hero-board-green--mobile.svg");
+  background-image: url("../assets/images/hero-board-green--mobile.svg");
 }
 
 @media screen and (min-width: 768px) {
   .deco-board_type_secondary {
-    background-image: url("../../assets/images/hero-board-green.svg");
+    background-image: url("../assets/images/hero-board-green.svg");
   }
 }
 
