@@ -12,3 +12,8 @@
 
 - HTML
 - SCSS
+- JavaScript
+
+**Demo**
+
+- [Демо страницы](https://puinka.github.io/chess-club/index.html)
