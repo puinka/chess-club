@@ -1328,7 +1328,6 @@ template {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 0;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: visibility 200ms, opacity 600ms ease-in-out;
@@ -1336,7 +1335,6 @@ template {
 }
 
 .popup_open {
-  height: auto;
   visibility: visible;
   opacity: 1;
 }
