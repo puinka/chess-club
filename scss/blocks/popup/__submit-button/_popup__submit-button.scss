@@ -1,0 +1,13 @@
+.popup__submit-button {
+  margin-top: 133px;
+
+  @include tablet {
+    margin-top: 223px;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  @include desktop {
+    margin-top: 233px;
+  }
+}
