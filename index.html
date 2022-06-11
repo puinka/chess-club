@@ -134,6 +134,37 @@
       <p class="footer__text">Шахматный клуб в Москве.</p>
       <p class="footer__copyright">&copy; Chess Club.</p>
     </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <div class="popup__logo"></div>
+        <h3 class="popup__title">Регистрация</h3>
+        <form action="submit" method="post" class="popup__form" name="signup">
+          <fieldset class="popup__user-info">
+            <label>
+              <input
+                type="text"
+                class="popup__text-input popup__text-input_type_name"
+                placeholder="Имя"
+                name="user-name"
+              />
+            </label>
+            <label>
+              <input
+                type="email"
+                class="popup__text-input popup__text-input_type_email"
+                placeholder="Email"
+                name="email"
+              />
+            </label>
+          </fieldset>
+          <button class="popup__submit-button button" type="submit">
+            Зарегистрироваться
+          </button>
+        </form>
+      </div>
+    </div>
+
     <script src="scripts/script.js"></script>
   </body>
 </html>
