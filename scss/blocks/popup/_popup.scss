@@ -9,7 +9,14 @@
   background-color: $color-bg-primary;
   align-items: center;
   justify-content: center;
-  //visibility: hidden;
-  //opacity: 0;
-  transition: visibility 300ms, opacity 300ms ease-in-out;
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 200ms, opacity 600ms ease-in-out;
+
+  &_open {
+    height: auto;
+    visibility: visible;
+    opacity: 1;
+  }
 }

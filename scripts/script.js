@@ -1,4 +1,8 @@
 const galleries = document.querySelectorAll(".gallery");
+const headerButton = document.querySelector(".header__signup-button");
+const footerButton = document.querySelector(".header__signup-button");
+const signupPopup = document.querySelector(".popup");
+const popupButton = signupPopup.querySelector(".popup__submit-button");
 
 function getPosition(number, slides) {
   const slideWidth = slides[0].getBoundingClientRect().width;
@@ -46,6 +50,14 @@ function checkDirection(wrap, indicators) {
   }
 }
 
+function openPopup() {
+  signupPopup.classList.add("popup_open");
+}
+
+function closePopup() {
+  signupPopup.classList.remove("popup_open");
+}
+
 galleries.forEach((gallery) => {
   const paginationIndicators = gallery.querySelectorAll(
     ".gallery__page-indicator"
@@ -62,4 +74,12 @@ galleries.forEach((gallery) => {
       slideToPosition(arr, i, slides, sliderWrap)
     );
   });
+});
+
+headerButton.addEventListener("click", openPopup);
+footerButton.addEventListener("click", openPopup);
+
+popupButton.addEventListener("click", (evt) => {
+  evt.preventDefault();
+  closePopup();
 });
