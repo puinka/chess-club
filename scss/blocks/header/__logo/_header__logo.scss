@@ -1,12 +1,12 @@
 .header__logo {
-  background-image: url("../../assets/images/logo-mobile.svg");
+  background-image: url("../assets/images/logo-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 26px;
   height: 36px;
 
   @include tablet {
-    background-image: url("../../assets/images/logo.svg");
+    background-image: url("../assets/images/logo.svg");
     width: 38px;
     height: 54px;
   }

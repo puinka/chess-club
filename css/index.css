@@ -345,21 +345,21 @@ template {
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../../assets/fonts/noto-sans/noto-sans-400.woff2") format("woff2"), url("../../assets/fonts/noto-sans/noto-sans-400.woff") format("woff");
+  src: url("../assets/fonts/noto-sans/noto-sans-400.woff2") format("woff2"), url("../assets/fonts/noto-sans/noto-sans-400.woff") format("woff");
 }
 
 @font-face {
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 500;
-  src: url("../../assets/fonts/noto-sans/noto-sans-500.woff2") format("woff2"), url("../../assets/fonts/noto-sans/noto-sans-500.woff") format("woff");
+  src: url("../assets/fonts/noto-sans/noto-sans-500.woff2") format("woff2"), url("../assets/fonts/noto-sans/noto-sans-500.woff") format("woff");
 }
 
 @font-face {
   font-family: "Noto Sans";
   font-style: normal;
   font-weight: 600;
-  src: url("../../assets/fonts/noto-sans/noto-sans-600.woff2") format("woff2"), url("../../assets/fonts/noto-sans/noto-sans-600.woff") format("woff");
+  src: url("../assets/fonts/noto-sans/noto-sans-600.woff2") format("woff2"), url("../assets/fonts/noto-sans/noto-sans-600.woff") format("woff");
 }
 
 .page {
@@ -449,7 +449,7 @@ template {
 }
 
 .header__logo {
-  background-image: url("../../assets/images/logo-mobile.svg");
+  background-image: url("../assets/images/logo-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 26px;
@@ -458,7 +458,7 @@ template {
 
 @media screen and (min-width: 768px) {
   .header__logo {
-    background-image: url("../../assets/images/logo.svg");
+    background-image: url("../assets/images/logo.svg");
     width: 38px;
     height: 54px;
   }
@@ -493,7 +493,7 @@ template {
     width: 17px;
     height: 17px;
     display: block;
-    background-image: url("../../assets/images/arrow.svg");
+    background-image: url("../assets/images/arrow.svg");
     position: absolute;
     right: 0;
     top: 0;
@@ -554,7 +554,7 @@ template {
 }
 
 .header__logo {
-  background-image: url("../../assets/images/logo-mobile.svg");
+  background-image: url("../assets/images/logo-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 26px;
@@ -563,7 +563,7 @@ template {
 
 @media screen and (min-width: 768px) {
   .header__logo {
-    background-image: url("../../assets/images/logo.svg");
+    background-image: url("../assets/images/logo.svg");
     width: 38px;
     height: 54px;
   }
@@ -598,7 +598,7 @@ template {
     width: 17px;
     height: 17px;
     display: block;
-    background-image: url("../../assets/images/arrow.svg");
+    background-image: url("../assets/images/arrow.svg");
     position: absolute;
     right: 0;
     top: 0;
@@ -646,7 +646,7 @@ template {
 
 .hero {
   padding: 10px 0 20px;
-  background-image: url("../../assets/images/hero-illustration--mobile.png");
+  background-image: url("../assets/images/hero-illustration--mobile.png");
   background-repeat: no-repeat;
   background-position: top 0 right 20px;
   background-size: 120px 60px;
@@ -654,7 +654,7 @@ template {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: url("../../assets/images/hero-illustration--tablet.png");
+    background-image: url("../assets/images/hero-illustration--tablet.png");
     background-size: 130px 520px;
     background-position: top 160px right 0;
     padding-top: 0;
@@ -664,7 +664,7 @@ template {
 
 @media screen and (min-width: 1024px) {
   .hero {
-    background-image: url("../../assets/images/hero-illustration--desktop.png");
+    background-image: url("../assets/images/hero-illustration--desktop.png");
     background-size: 480px 640px;
     background-position: top 10px right 0;
     padding-bottom: 80px;
@@ -752,12 +752,12 @@ template {
 }
 
 .deco-board_type_primary {
-  background-image: url("../../assets/images/hero-board-violet--mobile.svg");
+  background-image: url("../assets/images/hero-board-violet--mobile.svg");
 }
 
 @media screen and (min-width: 768px) {
   .deco-board_type_primary {
-    background-image: url("../../assets/images/hero-board-violet.svg");
+    background-image: url("../assets/images/hero-board-violet.svg");
   }
 }
 
@@ -995,7 +995,7 @@ template {
   padding-top: 40px;
   padding-bottom: 200px;
   background-color: #5036e6;
-  background-image: url("../../assets/images/join-illustration--mobile.png");
+  background-image: url("../assets/images/join-illustration--mobile.png");
   background-size: 280px 140px;
   background-position: bottom 0 left 20px;
   background-repeat: no-repeat;
@@ -1005,7 +1005,7 @@ template {
   .join {
     padding-top: 121px;
     padding-bottom: 121px;
-    background-image: url("../../assets/images/join-illustration--tablet.png");
+    background-image: url("../assets/images/join-illustration--tablet.png");
     background-size: 180px 360px;
     background-position: left center;
   }
@@ -1020,7 +1020,7 @@ template {
 
 @media screen and (min-width: 1440px) {
   .join {
-    background-image: url("../../assets/images/join-illustration--desktop.png");
+    background-image: url("../assets/images/join-illustration--desktop.png");
     background-size: 660px 440px;
     background-position: bottom 60px left 0;
   }
@@ -1102,7 +1102,7 @@ template {
 
 @media screen and (min-width: 768px) {
   .competitions {
-    background-image: url("assets/images/competitions-illustration--tablet.png");
+    background-image: url("../assets/images/competitions-illustration--tablet.png");
     background-repeat: no-repeat;
     background-size: 220px 220px;
     background-position: left bottom;
@@ -1111,7 +1111,7 @@ template {
 
 @media screen and (min-width: 1024px) {
   .competitions {
-    background-image: url("assets/images/competitions-illustration--desktop.png");
+    background-image: url("../assets/images/competitions-illustration--desktop.png");
     background-size: 440px 220px;
     background-position: left 100px bottom;
   }
@@ -1253,7 +1253,7 @@ template {
 }
 
 .footer__logo {
-  background-image: url("../../assets/images/logo-mobile.svg");
+  background-image: url("../assets/images/logo-mobile.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 38px;
@@ -1365,7 +1365,7 @@ template {
 }
 
 .popup__logo {
-  background-image: url("../../assets/images/logo-mobile.svg");
+  background-image: url("../assets/images/logo-mobile.svg");
   width: 26px;
   height: 36px;
   margin-bottom: 40px;
@@ -1373,7 +1373,7 @@ template {
 
 @media screen and (min-width: 768px) {
   .popup__logo {
-    background-image: url("../../assets/images/logo.svg");
+    background-image: url("../assets/images/logo.svg");
     width: 38px;
     height: 54px;
     margin-bottom: 50px;

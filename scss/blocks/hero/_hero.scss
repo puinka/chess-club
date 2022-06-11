@@ -1,12 +1,12 @@
 .hero {
   padding: 10px 0 20px;
-  background-image: url("../../assets/images/hero-illustration--mobile.png");
+  background-image: url("../assets/images/hero-illustration--mobile.png");
   background-repeat: no-repeat;
   background-position: top 0 right 20px;
   background-size: 120px 60px;
 
   @include tablet {
-    background-image: url("../../assets/images/hero-illustration--tablet.png");
+    background-image: url("../assets/images/hero-illustration--tablet.png");
     background-size: 130px 520px;
     background-position: top 160px right 0;
     padding-top: 0;
@@ -14,7 +14,7 @@
   }
 
   @include desktop {
-    background-image: url("../../assets/images/hero-illustration--desktop.png");
+    background-image: url("../assets/images/hero-illustration--desktop.png");
     background-size: 480px 640px;
     background-position: top 10px right 0;
     padding-bottom: 80px;
