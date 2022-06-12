@@ -12,6 +12,7 @@
 
 - HTML
 - SCSS
+- CSS
 - JavaScript
 
 **Demo**
