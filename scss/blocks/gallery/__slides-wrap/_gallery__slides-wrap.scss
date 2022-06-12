@@ -1,0 +1,12 @@
+.gallery__slides-wrap {
+  display: flex;
+  margin-bottom: 30px;
+  overflow-x: auto;
+
+  @include desktop {
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  @include no-scrollbar;
+}

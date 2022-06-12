@@ -1,0 +1,14 @@
+.badge {
+  padding: 15px;
+  max-width: 34px;
+  max-height: 40px;
+  background-color: $color-bg-secondary;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-bottom: 60px;
+
+  @include tablet {
+    padding: 18px 30px 18px 18px;
+    margin-bottom: 70px;
+  }
+}

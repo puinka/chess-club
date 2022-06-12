@@ -1,0 +1,15 @@
+.team {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: $color-bg-secondary;
+
+  @include tablet {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+  @include desktop {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}

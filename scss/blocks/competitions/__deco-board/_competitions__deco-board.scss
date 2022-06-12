@@ -1,0 +1,15 @@
+.competitions__deco-board {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  margin-top: 60px;
+
+  @include tablet {
+    margin-left: auto;
+    margin-right: 50px;
+  }
+
+  @include desktop {
+    margin-right: 0;
+  }
+}

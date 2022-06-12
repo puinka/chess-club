@@ -1,0 +1,14 @@
+.header {
+  @include padding;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  padding-top: 16px;
+
+  @include tablet {
+    padding-top: 26px;
+    margin-bottom: 60px;
+  }
+}

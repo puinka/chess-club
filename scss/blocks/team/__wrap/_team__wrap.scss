@@ -1,0 +1,8 @@
+.team__wrap {
+  position: relative;
+  @include padding;
+
+  @include tablet {
+    padding-right: 0;
+  }
+}

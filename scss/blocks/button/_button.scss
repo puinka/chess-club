@@ -1,0 +1,28 @@
+.button {
+  background-color: $color-button;
+  padding: 6px 16px;
+  border: none;
+  font-family: inherit;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: weight(bold);
+  border-radius: $border-radius-s;
+  transition: background 0.3s ease-out;
+  color: $color-text-primary;
+  letter-spacing: 0.1px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-button-hover;
+  }
+
+  @include tablet {
+    font-size: 13px;
+    padding: 12px 22px 14px;
+  }
+
+  @include desktop {
+    font-size: 15px;
+    padding: 14px 28px 16px;
+  }
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Chess Club</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__logo"></div>
+      <div class="header__signup-wrap">
+        <p class="header__lead">Вступайте в клуб</p>
+        <button class="header__signup-button button" type="button">
+          Зарегистрироваться
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="hero__wrap">
+          <div class="badge"><p class="badge__text">Клуб</p></div>
+          <h1 class="hero__title">Правильные шахматы</h1>
+          <p class="hero__lead">
+            Приходите к нам, играть в шахматы! Сразитесь&nbsp;классическом
+            поединке, блиц состязании&nbsp;и бою с гройсмейстером.
+          </p>
+          <div
+            class="hero__deco-board deco-board deco-board_type_primary"
+          ></div>
+        </div>
+      </section>
+      <section class="team">
+        <div class="team__wrap">
+          <h2 class="team__title">Наша команда</h2>
+          <p class="team__copy">
+            Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с
+            ними играть — одно удовольствие!
+          </p>
+          <div class="team__members gallery">
+            <div class="gallery__slides-wrap">
+              <article class="member gallery__slide">
+                <img
+                  src="assets/images/andrey.jpg"
+                  alt="Андрей"
+                  class="member__photo"
+                />
+                <p class="member__name">Андрей</p>
+                <p class="member__occupation">Шахматист, писатель.</p>
+              </article>
+              <article class="member gallery__slide">
+                <img
+                  src="assets/images/nikita.jpg"
+                  alt="Никита"
+                  class="member__photo"
+                />
+                <p class="member__name">Никита</p>
+                <p class="member__occupation">Шахматист, кулинар.</p>
+              </article>
+              <article class="member gallery__slide">
+                <img
+                  src="assets/images/alexey.jpg"
+                  alt="Алексей"
+                  class="member__photo"
+                />
+                <p class="member__name">Алексей</p>
+                <p class="member__occupation">Шахматист, геймер.</p>
+              </article>
+            </div>
+            <div class="gallery__pagination">
+              <div
+                class="gallery__page-indicator gallery__page-indicator_active"
+              ></div>
+              <div class="gallery__page-indicator"></div>
+              <div class="gallery__page-indicator"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="join">
+        <div class="join__wrap">
+          <h2 class="join__title">Хочешь в&nbsp;комаду?</h2>
+          <p class="join__copy">
+            Свяжись с нами и мы обсудим все детали присоеденения к команде.
+          </p>
+        </div>
+      </section>
+      <section class="competitions">
+        <div class="competitions__wrap">
+          <h2 class="competitions__title">Сражения</h2>
+          <p class="competitions__copy">
+            Сражайтесь в парах и приятно проводите время. Если хотите прокачать
+            свои навыки — сыграйте с&nbsp;нашими шахматистами.
+          </p>
+          <div class="competitions__gallery gallery">
+            <div class="gallery__slides-wrap">
+              <img
+                src="assets/images/gallery-1.jpg"
+                alt="Шахматный турнир на скамейке во дворе"
+                class="competitions__photo gallery__slide"
+              />
+              <img
+                src="assets/images/gallery-2.jpg"
+                alt="Шахматная доска перед началом игры"
+                class="competitions__photo gallery__slide"
+              />
+              <img
+                src="assets/images/gallery-3.jpg"
+                alt="Шахматная партия"
+                class="competitions__photo gallery__slide"
+              />
+            </div>
+            <div class="gallery__pagination">
+              <div
+                class="gallery__page-indicator gallery__page-indicator_active"
+              ></div>
+              <div class="gallery__page-indicator"></div>
+              <div class="gallery__page-indicator"></div>
+            </div>
+          </div>
+
+          <div
+            class="competitions__deco-board deco-board deco-board_type_secondary"
+          ></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo"></div>
+      <button class="footer__signup-button button" type="button">
+        Зарегистрироваться
+      </button>
+      <p class="footer__text">Шахматный клуб в Москве.</p>
+      <p class="footer__copyright">&copy; Chess Club.</p>
+    </footer>
+
+    <div class="popup">
+      <div class="popup__container">
+        <div class="popup__logo"></div>
+        <h3 class="popup__title">Регистрация</h3>
+        <form action="submit" method="post" class="popup__form" name="signup">
+          <fieldset class="popup__user-info">
+            <label>
+              <input
+                type="text"
+                class="popup__text-input popup__text-input_type_name"
+                placeholder="Имя"
+                name="user-name"
+              />
+            </label>
+            <label>
+              <input
+                type="email"
+                class="popup__text-input popup__text-input_type_email"
+                placeholder="Email"
+                name="email"
+              />
+            </label>
+          </fieldset>
+          <button class="popup__submit-button button" type="submit">
+            Зарегистрироваться
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>

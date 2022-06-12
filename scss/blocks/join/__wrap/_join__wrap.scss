@@ -1,0 +1,17 @@
+.join__wrap {
+  @include padding;
+
+  @include tablet {
+    padding-left: 240px;
+  }
+
+  @include desktop {
+    padding-left: 40%;
+  }
+
+  @include desktop-hd {
+    max-width: 520px;
+    padding-left: 600px;
+    margin: 0 auto;
+  }
+}
